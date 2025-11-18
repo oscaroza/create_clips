@@ -101,7 +101,7 @@ def _overlaps(start: float, end: float, windows: Iterable[ClipWindow]) -> bool:
 
 def _audio_to_waveform(audio: AudioClip) -> np.ndarray:
     chunks: list[np.ndarray] = []
-    for frame in audio.iter_frames(fps=SAMPLE_RATE, chunk_size=50000):
+    for frame in audio.iter_frames(fps=SAMPLE_RATE):
         chunks.append(frame)
     if not chunks:
         raise ValueError("Impossible de lire l'audio de la vidéo.")
