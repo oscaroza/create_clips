@@ -1,0 +1,11 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+python-multipart==0.0.9
+yt-dlp==2024.04.09
+moviepy==1.0.3
+numpy==1.26.4
+torch==2.2.2
+openai-whisper==20231117
+pillow==9.5.0
+pydantic-settings==2.2.1
+python-dotenv==1.0.1

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "gta-drive",
+    "label": "GTA – Course nocturne",
+    "file": "gta-loop.mp4",
+    "description": "Loop urbain rythmé pour contenu dynamique"
+  },
+  {
+    "id": "asmr-waves",
+    "label": "ASMR – Beach Waves",
+    "file": "asmr-waves.mp4",
+    "description": "Mer calme pour un rendu relax"
+  },
+  {
+    "id": "study-lofi",
+    "label": "Lofi Study",
+    "file": "lofi-study.mp4",
+    "description": "Ambiance bureau minimaliste"
+  }
+]

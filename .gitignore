@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# FastAPI artifacts
+backend/.venv/
+backend/*.db
+backend/data/jobs/**
+!backend/data/jobs/.gitkeep
+backend/data/raw/**
+!backend/data/raw/.gitkeep
+backend/data/processed/**
+!backend/data/processed/.gitkeep
+backend/data/exports/**
+!backend/data/exports/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Large media files (not tracked in Git)
+shared/backgrounds/*.mp4
+
+# Logs
+*.log
+*.tmp
