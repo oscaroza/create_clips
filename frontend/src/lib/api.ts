@@ -42,8 +42,10 @@ export interface BackgroundPreset {
   file?: string;
 }
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
+
 const client = axios.create({
-  baseURL: "/api"
+  baseURL: API_BASE_URL
 });
 
 export async function fetchJobs(): Promise<JobSummary[]> {
